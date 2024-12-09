@@ -38,7 +38,7 @@ function App() {
       </nav>
 
 
-      <Routes>
+      <Routes basename="cs601-term-project">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
