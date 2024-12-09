@@ -7,7 +7,7 @@ function PhotoGalleryPage() {
 
   // Fetch images from JSON file
   useEffect(() => {
-    fetch("/data/photos.json")
+    fetch("./data/photos.json")
       .then((response) => response.json())
       .then((data) => setImages(data))
       .catch((error) => console.error("Error fetching gallery images:", error));
