@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cs601-term-project/static/css/main.9f582ad9.css",
+    "main.js": "/cs601-term-project/static/js/main.f51d447d.js",
+    "static/js/488.06c11de3.chunk.js": "/cs601-term-project/static/js/488.06c11de3.chunk.js",
+    "index.html": "/cs601-term-project/index.html",
+    "main.9f582ad9.css.map": "/cs601-term-project/static/css/main.9f582ad9.css.map",
+    "main.f51d447d.js.map": "/cs601-term-project/static/js/main.f51d447d.js.map",
+    "488.06c11de3.chunk.js.map": "/cs601-term-project/static/js/488.06c11de3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f582ad9.css",
+    "static/js/main.f51d447d.js"
+  ]
+}
