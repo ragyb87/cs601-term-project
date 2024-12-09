@@ -19,7 +19,7 @@ function Home() {
           <a href="/portfolio" className="cta-button">Explore My Work</a>
         </div>
         <div className="image-section">
-          <img src="/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
+          <img src="./assets/person.webp" alt="Ragy Basilious" className="profile-image" />
         </div>
       </div>
       <footer>
