@@ -22,7 +22,7 @@ function App() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <img src=https://ragyb87.github.io/cs601-term-project/assets/logo.webp" alt="Logo" className="logo-img" />
+          <img src="https://ragyb87.github.io/cs601-term-project/assets/logo.webp" alt="Logo" className="logo-img" />
         </div>
         <button className="hamburger" onClick={toggleMenu}>
         ☰
