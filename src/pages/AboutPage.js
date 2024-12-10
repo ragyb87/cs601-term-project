@@ -25,9 +25,7 @@ function AboutPage() {
         <section className="content-section">
           <h2>About Me</h2>
           <p>
-            With a strong background in software development, I thrive on crafting innovative solutions,
-            especially in GIS. My journey from Egypt to California has shaped my global perspective,
-            and I'm passionate about creating impactful tools that empower communities.
+          With a strong background in software development, I thrive on crafting innovative solutions and building impactful software tools. I earned my bachelor's degree in computer science from Egypt, and 10 years ago, I moved to California—a journey that has profoundly shaped my global perspective. I'm passionate about using software development to empower communities and drive meaningful change.
           </p>
         </section>
 
@@ -38,7 +36,6 @@ function AboutPage() {
             My key goals include:
           </p>
           <ul>
-            <li>Developing GIS-driven tools that provide value to communities.</li>
             <li>Continuously improving user experience in software applications.</li>
             <li>Advocating for Agile practices to streamline project workflows.</li>
           </ul>
@@ -49,7 +46,7 @@ function AboutPage() {
           <ul>
             <li><strong>Physical:</strong> Working in a collaborative environment at Esri's offices in California.</li>
             <li><strong>Social:</strong> Engaging with diverse teams and attending tech meetups.</li>
-            <li><strong>Technological:</strong> Leveraging cutting-edge tools for GIS development and data visualization.</li>
+            <li><strong>Technological:</strong> Leveraging cutting-edge tools for development and data visualization.</li>
           </ul>
         </section>
       </div>
