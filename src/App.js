@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import { useState } from "react";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
@@ -37,14 +38,14 @@ function App() {
       </nav>
 
 
-      <Routes basename="cs601-term-project">
+      <Router basename="cs601-term-project">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/challenges" element={<Challenge />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Router>
     </div>
 
     
