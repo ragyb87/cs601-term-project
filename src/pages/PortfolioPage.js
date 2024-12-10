@@ -7,7 +7,7 @@ function Portfolio() {
 
   // Fetch data from JSON file
   useEffect(() => {
-    fetch("./data/projects.json")
+    fetch("cs601-term-project/data/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Error fetching portfolio data:", error));
