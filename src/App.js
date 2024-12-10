@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+/**import { Routes, Route, Link } from "react-router-dom";*/
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
@@ -36,7 +37,7 @@ function App() {
         </ul>
       </nav>
 
-
+      <Router>
       <Routes basename="cs601-term-project">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -45,6 +46,7 @@ function App() {
         <Route path="/challenges" element={<Challenge />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </Router>
     </div>
 
     
