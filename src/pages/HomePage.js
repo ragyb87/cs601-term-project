@@ -1,7 +1,9 @@
 import React from "react";
+import Footer from "../components/FooterInclude";
 
 function Home() {
   return (
+    <>
     <div className="home">
       <div className="home-content">
         <div className="text-section">
@@ -22,15 +24,11 @@ function Home() {
           <img src="cs601-term-project/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
         </div>
       </div>
-      <footer>
-        <p>Designed & Developed by Ragy Basilious</p>
-        <div className="footer-links">
-          <a href="[LinkedIn URL]" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="[GitHub URL]" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </footer>
-    </div>
 
+
+    </div>
+  <Footer />
+  </>
   );
 }
 
