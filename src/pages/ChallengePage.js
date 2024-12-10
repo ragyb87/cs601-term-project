@@ -10,7 +10,7 @@ function ChallengePage() {
 
   // Fetch questions from JSON
   useEffect(() => {
-    fetch("cs601-term-project/data/questions.json")
+    fetch("./data/questions.json")
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data)) {
