@@ -10,7 +10,6 @@ import Contact from "./pages/ContacPaget";
 import './App.css';
 
 
-
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);

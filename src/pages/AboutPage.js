@@ -7,7 +7,7 @@ function AboutPage() {
     <>
       <div className="inner-pages">
         <div className="hero-section">
-          <img src="cs601-term-project/assets/ragy.jpeg" alt="Ragy Basilious" className="about-image" />
+          <img src="%PUBLIC_URL%/ragy.jpeg" alt="Ragy Basilious" className="about-image" />
           <div className="hero-content">
             <h1>Ragy Basilious</h1>
             <h3>Demographics</h3>

@@ -21,7 +21,7 @@ function Home() {
           <a href="/portfolio" className="cta-button">Explore My Work</a>
         </div>
         <div className="image-section">
-          <img src="cs601-term-project/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
+          <img src="%PUBLIC_URL%/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
         </div>
       </div>
 
