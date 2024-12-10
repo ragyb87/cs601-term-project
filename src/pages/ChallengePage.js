@@ -7,6 +7,7 @@ function ChallengePage() {
   const [trueBox, setTrueBox] = useState([]);
   const [falseBox, setFalseBox] = useState([]);
   const [feedback, setFeedback] = useState(""); // Feedback message
+  const [feedbackClass, setFeedbackClass] = useState(""); // Feedback class
 
   // Fetch questions from JSON
   useEffect(() => {
@@ -33,6 +34,7 @@ function ChallengePage() {
 
     // Clear feedback before new action
     setFeedback("");
+    setFeedbackClass("");
 
     // Determine the source and destination
     const sourceList = source.droppableId === "questions" ? questions : source.droppableId === "trueBox" ? trueBox : falseBox;
@@ -52,11 +54,13 @@ function ChallengePage() {
       (destination.droppableId === "falseBox" && !movedItem.isTrue)
     ) {
       setFeedback("Correct! You got it");
+      setFeedbackClass("feedback correct");
       destinationList.splice(destination.index, 0, movedItem);
       setDestinationList([...destinationList]);
     } else {
       // Incorrect answer, move back to questions
       setFeedback("Incorrect! Please try again");
+      setFeedbackClass("feedback incorrect");
       sourceList.splice(source.index, 0, movedItem);
     }
 
@@ -75,7 +79,7 @@ function ChallengePage() {
 
       {/* Feedback Message */}
       <div className="feedback-container">
-        {feedback && <p className="feedback">{feedback}</p>}
+        {feedback && <p className={feedbackClass}>{feedback}</p>}
       </div>
 
       <DragDropContext onDragEnd={onDragEnd}>

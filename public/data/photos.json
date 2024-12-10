@@ -2,62 +2,62 @@
     {
       "id": 1,
       "title": "Image #1",
-      "imageUrl": "cs601-term-project/assets/photogallery1.webp"
+      "imageUrl": "./assets/photogallery1.webp"
     },
     {
         "id": 2,
         "title": "Image #2",
-        "imageUrl": "cs601-term-project/assets/photogallery2.webp"
+        "imageUrl": "./assets/photogallery2.webp"
     },
     {
         "id": 3,
         "title": "Image #3",
-        "imageUrl": "cs601-term-project/assets/photogallery3.webp"
+        "imageUrl": "./assets/photogallery3.webp"
     },
     {
         "id": 4,
         "title": "Image #4",
-        "imageUrl": "cs601-term-project/assets/photogallery4.webp"
+        "imageUrl": "./assets/photogallery4.webp"
     },
     {
         "id": 5,
         "title": "Image #5",
-        "imageUrl": "cs601-term-project/assets/photogallery5.webp"
+        "imageUrl": "./assets/photogallery5.webp"
     },
     {
         "id": 6,
         "title": "Image #6",
-        "imageUrl": "cs601-term-project/assets/photogallery6.webp"
+        "imageUrl": "./assets/photogallery6.webp"
     },
     {
         "id": 7,
         "title": "Image #7",
-        "imageUrl": "cs601-term-project/assets/photogallery7.webp"
+        "imageUrl": "./assets/photogallery7.webp"
     },
     {
         "id": 8,
         "title": "Image #8",
-        "imageUrl": "cs601-term-project/assets/photogallery8.webp"
+        "imageUrl": "./assets/photogallery8.webp"
     },
     {
         "id": 9,
         "title": "Image #9",
-        "imageUrl": "cs601-term-project/assets/photogallery9.webp"
+        "imageUrl": "./assets/photogallery9.webp"
     },
     {
         "id": 10,
         "title": "Image #10",
-        "imageUrl": "cs601-term-project/assets/photogallery10.webp"
+        "imageUrl": "./assets/photogallery10.webp"
     },
     {
         "id": 11,
         "title": "Image #11",
-        "imageUrl": "cs601-term-project/assets/photogallery11.webp"
+        "imageUrl": "./assets/photogallery11.webp"
     },
     {
         "id": 12,
         "title": "Image #12",
-        "imageUrl": "cs601-term-project/assets/photogallery12.webp"
+        "imageUrl": "./assets/photogallery12.webp"
     }
   ]
 
