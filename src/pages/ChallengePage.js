@@ -54,13 +54,13 @@ function ChallengePage() {
       (destination.droppableId === "falseBox" && !movedItem.isTrue)
     ) {
       setFeedback("Correct! You got it");
-      setFeedbackClass("feedback.correct");
+      setFeedbackClass("feedback correct");
       destinationList.splice(destination.index, 0, movedItem);
       setDestinationList([...destinationList]);
     } else {
       // Incorrect answer, move back to questions
       setFeedback("Incorrect! Please try again");
-      setFeedbackClass("feedback.incorrect");
+      setFeedbackClass("feedback incorrect");
       sourceList.splice(source.index, 0, movedItem);
     }
 
