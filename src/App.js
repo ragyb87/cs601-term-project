@@ -1,6 +1,5 @@
 import React from "react";
-/**import { Routes, Route, Link } from "react-router-dom";*/
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
@@ -10,14 +9,13 @@ import Challenge from "./pages/ChallengePage";
 import Contact from "./pages/ContacPaget";
 import './App.css';
 
-
 function App() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div>
       <nav className="navbar">
@@ -25,9 +23,9 @@ function App() {
           <img src="https://ragyb87.github.io/cs601-term-project/assets/logo.webp" alt="Logo" className="logo-img" />
         </div>
         <button className="hamburger" onClick={toggleMenu}>
-        ☰
-      </button>
-      <ul className={`nav-links ${isOpen ? "show" : ""}`}>
+          ☰
+        </button>
+        <ul className={`nav-links ${isOpen ? "show" : ""}`}>
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><Link to="/about" className="nav-link">About Me</Link></li>
           <li><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
@@ -37,7 +35,6 @@ function App() {
         </ul>
       </nav>
 
-      <Router>
       <Routes basename="cs601-term-project">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -46,10 +43,7 @@ function App() {
         <Route path="/challenges" element={<Challenge />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      </Router>
     </div>
-
-    
   );
 }
 
