@@ -2,8 +2,21 @@ import React from "react";
 import Footer from "../components/FooterInclude";
 
 function Home() {
+
+  (function(l) {
+    if (l.search[1] === '/' ) {
+      var decoded = l.search.slice(1).split('&').map(function(s) { 
+        return s.replace(/~and~/g, '&')
+      }).join('?');
+      window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+      );
+    }
+  }(window.location))
+
   return (
     <>
+    
     <div className="home">
       <div className="home-content">
         <div className="text-section">
@@ -21,7 +34,7 @@ function Home() {
           <a href="/portfolio" className="cta-button">Explore My Work</a>
         </div>
         <div className="image-section">
-          <img src="%PUBLIC_URL%/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
+          <img src="cs601-term-project/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
         </div>
       </div>
 
