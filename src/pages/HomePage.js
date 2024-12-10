@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <>
-    
+    <div id="root"></div>
     <div className="home">
       <div className="home-content">
         <div className="text-section">
@@ -31,7 +31,7 @@ function Home() {
             I'm passionate about creating innovative web solutions and delivering impactful projects.
             If you're seeking someone with the skills to bring ideas to life, let's connect!
           </p>
-          <a href="/portfolio" className="cta-button">Explore My Work</a>
+         { /* <a href="/portfolio" className="cta-button">Explore My Work</a> */}
         </div>
         <div className="image-section">
           <img src="cs601-term-project/assets/person.webp" alt="Ragy Basilious" className="profile-image" />
