@@ -27,7 +27,7 @@ This is a professional profile website for **Ragy Basilious**, showcasing his ca
 
    ```bash
    git clone https://github.com/your-username/ragy-basilious-profile.git
-   cd cs601-term-project
+   cd cs601-term-project-basilious
    ```
 
 2. **Install Dependencies**:
